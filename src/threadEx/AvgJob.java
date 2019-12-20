@@ -6,6 +6,7 @@ public class AvgJob extends Thread{
 		SumJob sj=new SumJob();
 		int avg=sj.sum/10;
 		System.out.println("avg>>"+avg);
+		System.out.println("avg>>"+avg);
 		
 	}
 
